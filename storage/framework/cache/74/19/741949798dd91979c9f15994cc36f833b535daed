@@ -1,0 +1,44 @@
+1587286589a:1:{s:12:"homepage.htm";a:9:{s:8:"fileName";s:12:"homepage.htm";s:7:"content";s:764:"title = "homepage"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+
+
+<div class="hero">
+
+        <div class="column" style="margin-block-start: 194px;">
+            <h5 style="     margin-left: 335px;font-size: 36px;color: #00d1b2;margin-bottom: 67px;margin-top: -193px">
+               Welcome in Ower shop!
+            </h5>
+        </div>
+
+</div>
+<div class="columns" style="background-color: #00d1b2;margin-block-end: -50px;">
+<div class="column">
+    <p></p>
+    <figure class="image is-128x128"style="margin-top: 50px;margin-left: 550px">
+        <img src=themes/training/assets/compiled/css/images/prf.png>
+    </figure>
+    <h2 style="margin-left: 480px;font-size: 2rem"><strong>Be safe and stay at Home</strong> </h2>
+</div>
+
+</div>";s:5:"mtime";i:1587275516;s:6:"markup";s:690:"<div class="hero">
+
+        <div class="column" style="margin-block-start: 194px;">
+            <h5 style="     margin-left: 335px;font-size: 36px;color: #00d1b2;margin-bottom: 67px;margin-top: -193px">
+               Welcome in Ower shop!
+            </h5>
+        </div>
+
+</div>
+<div class="columns" style="background-color: #00d1b2;margin-block-end: -50px;">
+<div class="column">
+    <p></p>
+    <figure class="image is-128x128"style="margin-top: 50px;margin-left: 550px">
+        <img src=themes/training/assets/compiled/css/images/prf.png>
+    </figure>
+    <h2 style="margin-left: 480px;font-size: 2rem"><strong>Be safe and stay at Home</strong> </h2>
+</div>
+
+</div>";s:4:"code";N;s:5:"title";s:8:"homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

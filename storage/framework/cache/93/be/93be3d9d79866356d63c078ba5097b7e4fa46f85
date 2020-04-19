@@ -1,0 +1,64 @@
+1587286589a:1:{s:9:"login.htm";a:10:{s:8:"fileName";s:9:"login.htm";s:7:"content";s:679:"title = "Login"
+url = "/login"
+layout = "default"
+is_hidden = 0
+
+[account]
+redirect = "shop"
+paramCode = "code"
+forceSecure = 0
+requirePassword = 0
+==
+<div style="position: center;padding: 4px 2px">
+{% if not user %}
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Sign in</h3>
+            {% partial account ~ '::signin' %}
+        </div>
+
+        <div class="col-md-6">
+
+            {% partial account ~ '::register' %}
+        </div>
+
+    </div>
+
+{% else %}
+
+    {% partial account ~ '::activation_check' %}
+
+    {% partial account ~ '::update' %}
+
+    {% partial account ~ '::deactivate_link' %}
+
+{% endif %}
+</div>";s:5:"mtime";i:1587277900;s:6:"markup";s:517:"<div style="position: center;padding: 4px 2px">
+{% if not user %}
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Sign in</h3>
+            {% partial account ~ '::signin' %}
+        </div>
+
+        <div class="col-md-6">
+
+            {% partial account ~ '::register' %}
+        </div>
+
+    </div>
+
+{% else %}
+
+    {% partial account ~ '::activation_check' %}
+
+    {% partial account ~ '::update' %}
+
+    {% partial account ~ '::deactivate_link' %}
+
+{% endif %}
+</div>";s:4:"code";N;s:5:"title";s:5:"Login";s:3:"url";s:6:"/login";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"account";a:4:{s:8:"redirect";s:4:"shop";s:9:"paramCode";s:4:"code";s:11:"forceSecure";s:1:"0";s:15:"requirePassword";s:1:"0";}}}

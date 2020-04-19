@@ -1,0 +1,10 @@
+1587286589a:1:{s:12:"about-us.htm";a:9:{s:8:"fileName";s:12:"about-us.htm";s:7:"content";s:165:"title = "About us"
+url = "/about-us"
+is_hidden = 0
+layout = "default"
+==
+<h1 style="position: center"><strong>SafeShop</strong></h1>
+
+<p>a delivery system</p>";s:5:"mtime";i:1587222227;s:6:"markup";s:87:"<h1 style="position: center"><strong>SafeShop</strong></h1>
+
+<p>a delivery system</p>";s:4:"code";N;s:5:"title";s:8:"About us";s:3:"url";s:9:"/about-us";s:9:"is_hidden";s:1:"0";s:6:"layout";s:7:"default";}}
