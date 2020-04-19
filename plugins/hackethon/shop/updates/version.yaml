@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table hackethon_shop_'
+    - builder_table_create_hackethon_shop_.php
+1.0.3:
+    - 'Updated table hackethon_shop_'
+    - builder_table_update_hackethon_shop_.php
+1.0.4:
+    - 'Updated table hackethon_shop_'
+    - builder_table_update_hackethon_shop__2.php
+1.0.5:
+    - 'Updated table hackethon_shop_'
+    - builder_table_update_hackethon_shop__3.php

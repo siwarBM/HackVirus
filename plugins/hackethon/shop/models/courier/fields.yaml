@@ -1,0 +1,18 @@
+fields:
+    order:
+        label: Order
+        span: auto
+        type: number
+    courrier:
+        label: 'Delivery man name'
+        span: full
+        type: text
+    details:
+        label: Details
+        span: full
+        type: text
+    slug:
+        label: slug
+        span: auto
+        defaultFrom: order
+        type: number

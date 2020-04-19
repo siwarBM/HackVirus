@@ -1,0 +1,13 @@
+columns:
+    order:
+        label: Order
+        type: number
+        searchable: true
+        sortable: true
+    courrier:
+        label: 'Delivery man'
+        type: text
+        searchable: true
+    details:
+        label: Details
+        type: text

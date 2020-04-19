@@ -1,0 +1,12 @@
+list: $/hackethon/shop/models/courier/columns.yaml
+modelClass: Hackethon\Shop\Models\Courier
+title: Shop
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'hackethon/shop/shop/update/:id'

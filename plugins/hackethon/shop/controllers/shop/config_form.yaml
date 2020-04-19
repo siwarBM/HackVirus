@@ -1,0 +1,10 @@
+name: Shop
+form: $/hackethon/shop/models/courier/fields.yaml
+modelClass: Hackethon\Shop\Models\Courier
+defaultRedirect: hackethon/shop/shop
+create:
+    redirect: 'hackethon/shop/shop/update/:id'
+    redirectClose: hackethon/shop/shop
+update:
+    redirect: hackethon/shop/shop
+    redirectClose: hackethon/shop/shop

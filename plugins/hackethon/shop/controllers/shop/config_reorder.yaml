@@ -1,0 +1,4 @@
+title: Shop
+modelClass: Hackethon\Shop\Models\Courier
+toolbar:
+    buttons: reorder_toolbar

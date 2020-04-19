@@ -1,0 +1,11 @@
+plugin:
+    name: 'hackethon.shop::lang.plugin.name'
+    description: 'hackethon.shop::lang.plugin.description'
+    author: Hackethon
+    icon: oc-icon-shopping-cart
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Shop
+        url: hackethon/shop/shop
+        icon: icon-shopping-cart
