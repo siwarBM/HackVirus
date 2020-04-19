@@ -1,0 +1,32 @@
+title = "single courier"
+url = "/courier/:id"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Hackethon\Shop\Models\Courier"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "order"
+notFoundMessage = "Record not found"
+
+[session]
+security = "user"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+<div class="notification">
+    <button class="delete"></button>
+
+        <p style=" margin-left: 260px;color:#00d1b2"> <strong>Order :</strong>
+            {{record.order }}</p>
+
+        <p style=" margin-left: 260px">Delivery man Name : {{record.courrier }}</p>
+
+        <p style=" margin-left: 260px">details : {{record.details}}</p></div>
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
