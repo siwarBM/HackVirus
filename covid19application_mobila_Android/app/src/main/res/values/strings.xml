@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">covid19</string>
+<string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+<string name="auth_failed">Authentication failed.</string>
+<string name="describe_your_book">Describe your Book</string>
+<string name="todo">TODO</string>
+<string name="name_of_book">Name of Book</string>
+</resources>
